@@ -1,0 +1,96 @@
+ <!-- header logo: style can be found in header.less -->
+        <header class="header">
+            <a href="index" class="logo">
+                <!-- Add the class icon to your logo image or logo icon to add the margining -->
+                 搜拍宝后台管理系统
+            </a>
+            <!-- Header Navbar: style can be found in header.less -->
+            <nav class="navbar navbar-static-top" role="navigation">
+                <!-- Sidebar toggle button-->
+                <a href="#" class="navbar-btn sidebar-toggle" data-toggle="offcanvas" role="button">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+                <div class="navbar-right">
+                    <ul class="nav navbar-nav">
+                        <!-- Messages: style can be found in dropdown.less-->
+
+
+
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="wrapper row-offcanvas row-offcanvas-left">
+            <!-- Left side column. contains the logo and sidebar -->
+            <aside class="left-side sidebar-offcanvas">
+                <!-- sidebar: style can be found in sidebar.less -->
+                <section class="sidebar">
+                    <!-- Sidebar user panel -->
+
+
+                    <!-- sidebar menu: : style can be found in sidebar.less -->
+                    <ul class="sidebar-menu">
+                        <li class="active">
+                            <a href="index">
+                                <i class="fa fa-dashboard"></i>
+                                <span>控制台</span>
+                            </a>
+                        </li>
+                           <li class="treeview active">
+                            <a href="#">
+                                <i class="fa fa-bar-chart-o"></i>
+                                <span>标的物</span>
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li class="active">
+                                  <a href="unclassfied_list"><i class="fa fa-angle-double-right"></i>未分类<small class="badge pull-right bg-green">{{ListNum.unclassfied_num}}</small></a></li>
+                                <li><a href="file_list"><i class="fa fa-angle-double-right"></i>已归档<small class="badge pull-right bg-blue">{{ListNum.file_num}}</small></a></li>
+                            </ul>
+                        </li>
+                     <li class="treeview">
+                            <a href="#">
+                                <i class="fa fa-table"></i>
+                                <span>已分类</span>
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li><a href="house_list"><i class="fa fa-angle-double-right"></i>房产<small class="badge pull-right bg-green">{{ListNum.house_num}}</small></a></li>
+                                <li><a href="car_list"><i class="fa fa-angle-double-right"></i>机动车<small class="badge pull-right bg-blue">{{ListNum.car_num}}</small></a></li>
+                               <li><a href="land_list"><i class="fa fa-angle-double-right"></i>土地<small class="badge pull-right bg-yellow">{{ListNum.land_num}}</small></a></li>
+                                <li><a href="other_list"><i class="fa fa-angle-double-right"></i>其他<small class="badge pull-right bg-red">{{ListNum.other_num}}</small></a></li>
+                            </ul>
+                        </li>
+                        <li class="treeview">
+                            <a href="#">
+                                <i class="fa fa-edit"></i>
+                                <span>待审核</span>
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </a>
+                            <ul class="treeview-menu">
+                                  <li><a href="waiting_house_list"><i class="fa fa-angle-double-right"></i>房产<small class="badge pull-right bg-green">100</small></a></li>
+                                <li><a href="waiting_car_list"><i class="fa fa-angle-double-right"></i>机动车<small class="badge pull-right bg-blue">100</small></a></li>
+                               <li><a href="waiting_land_list"><i class="fa fa-angle-double-right"></i>土地<small class="badge pull-right bg-yellow">100</small></a></li>
+                                <li><a href="waiting_other_list"><i class="fa fa-angle-double-right"></i>其他<small class="badge pull-right bg-red">100</small></a></li>
+                            </ul>
+                        </li>
+                        <li class="treeview">
+                            <a href="#">
+                                <i class="fa fa-laptop"></i>
+                                <span>已发布</span>
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </a>
+                            <ul class="treeview-menu">
+                                  <li><a href="public_house_list"><i class="fa fa-angle-double-right"></i>房产<small class="badge pull-right bg-green">100</small></a></li>
+                                <li><a href="public_car_list"><i class="fa fa-angle-double-right"></i>机动车<small class="badge pull-right bg-green">100</small></a></li>
+                               <li><a href="public_land_list"><i class="fa fa-angle-double-right"></i>土地<small class="badge pull-right bg-green">100</small></a></li>
+                                <li><a href="public_other_list"><i class="fa fa-angle-double-right"></i>其他<small class="badge pull-right bg-green">100</small></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+                <!-- /.sidebar -->
+            </aside>
